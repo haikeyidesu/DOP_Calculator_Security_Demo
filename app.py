@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
-
+print("Test: Simple Flask Calculator Application Security Demo")
 @app.route('/')
 def index():
     """Render the calculator homepage"""
